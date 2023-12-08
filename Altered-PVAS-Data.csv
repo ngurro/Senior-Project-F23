@@ -1,0 +1,89 @@
+Name,Species,Primary Breed,Sex,Age (Y/M/D),Primary Color,Size,Temperament,Personality
+Madam Camille,Dog,"Shepherd, German",Female,7Y/ 10M/ 26D,Brown,big,Energetic,loyal
+Ledger,Dog,Retriever,Male,6Y/ 3M/ 4D,Black,medium,Energetic,bold
+Nutmeg,Dog,"Terrier, Pit Bull",Female,4Y/ 10M/ 18D,Black,medium,Friendly,affectionate
+Belle,Dog,Shepherd,Female,5Y/ 8M/ 29D,Black,big,Energetic,active
+Sarasota,Dog,"Terrier, Pit Bull",Female,5Y/ 8M/ 24D,Grey,medium,Friendly,affectionate
+Floyd,Dog,Mountain Cur,Male,1Y/ 11M/ 10D,Black,medium,Friendly,independent
+Manzanita,Dog,"Terrier, Pit Bull",Female,3Y/ 7M/ 10D,Black,medium,Energetic,affectionate
+Yucca,Dog,"Retriever, Black Labrador",Female,4Y/ 7M/ 4D,Black,medium,Friendly,intelligent
+Shelly,Dog,"Terrier, American Pit Bull",Female,1Y/ 11M,Brown,medium,Friendly,affectionate
+La Morena,Dog,"Shepherd, German",Female,6Y/ 6M/ 27D,Black,big,Energetic,loyal
+Nara,Dog,Boxer,Female,2Y/ 11M/ 10D,Brindle,medium,Energetic,affectionate
+Fauna,Dog,Shepherd,Female,5Y/ 4M/ 5D,Brown,big,Energetic,active
+Bali,Dog,"Terrier, Pit Bull",Female,5Y/ 2M/ 27D,Black,medium,Energetic,affectionate
+Dayton,Dog,Shepherd,Male,3Y/ 3M/ 20D,Black,big,Energetic,loyal
+Niky,Dog,"Shepherd, Anatolian",Female,5Y/ 3M/ 17D,Brown,big,Protective,intelligent
+Mochi,Dog,Shepherd,Female,3Y/ 9M/ 18D,Brown,medium,Friendly,affectionate
+Kit,Dog,Terrier,Male,2Y/ 3M/ 11D,Brown,small,Energetic,affectionate
+Lizzie,Dog,Terrier,Female,5Y/ 3M/ 10D,Brown,small,Energetic,affectionate
+Gypsy,Dog,American Blue Heeler,Female,4Y/ 9M/ 6D,Black,medium,Intelligent,independent
+Roberta,Dog,"Cattle Dog, Australian (Red Heeler)",Female,7Y/ 3M/ 3D,Red/Mahogany,medium,Intelligent,bold
+Bombay,Dog,Shepherd,Female,3Y/ 3M,Brown,medium,Energetic,loyal
+Citrine,Dog,Shepherd,Female,5Y/ 1M/ 28D,Brown,big,Energetic,loyal
+Rainbow,Dog,Shepherd,Female,3Y/ 8M/ 30D,Brown,big,Energetic,active
+Jobelle,Dog,"Cattle Dog, Australian (Red Heeler)",Female,5Y/ 1M/ 27D,White,medium,Intelligent,independent
+Azalea,Dog,"Cattle Dog, Australian (Red Heeler)",Female,7Y/ 2M/ 29D,White,medium,Intelligent,bold
+Hollie,Dog,"Terrier, Pit Bull",Female,1Y/ 10M/ 9D,Black,medium,Energetic,affectionate
+Lana,Dog,Shepherd,Female,2Y/ 8M/ 25D,Brown,medium,Energetic,bold
+Bartosz,Dog,"Retriever, Labrador",Male,1Y/ 6M/ 25D,Chocolate,medium,Friendly,intelligent
+Ulrich,Dog,"Retriever, Labrador",Male,1Y/ 6M/ 25D,Brown,medium,Friendly,affectionate
+Shrub,Dog,Shepherd,Male,1Y/ 9M/ 4D,White,medium,Energetic,bold
+Pascal,Dog,Shepherd,Male,1Y/ 8M/ 22D,Black,medium,Energetic,bold
+Elijah,Dog,Shepherd,Male,2Y/ 20D,Brown,big,Energetic,bold
+Tiger Shark,Dog,"Terrier, Pit Bull",Female,2Y/ 8M/ 15D,Black,medium,Energetic,affectionate
+Alberto,Dog,Shepherd,Male,3Y/ 3M/ 7D,Brown,big,Energetic,bold
+Oyster,Dog,"Terrier, Pit Bull",Male,2Y/ 2M/ 8D,Black,medium,Energetic,affectionate
+Neroli,Dog,Shepherd,Female,6Y/ 1M/ 28D,Black,big,Friendly,affectionate
+Miss Cody,Dog,Beagle,Female,4Y/ 1M/ 24D,Brown,small,Friendly,curious
+Tetris,Dog,"Retriever, Labrador",Female,5Y/ 18D,Black,medium,Friendly,affectionate
+Halo,Dog,Shepherd,Male,1Y/ 9M/ 21D,Brown,medium,Energetic,affectionate
+Tasha,Dog,"Terrier, Pit Bull",Female,1Y/ 7M/ 18D,Black,medium,Energetic,bold
+Enzo,Dog,Shepherd,Male,2Y/ 7M/ 17D,Brown,big,Energetic,bold
+Tivoli,Dog,Shepherd,Male,3Y/ 1M/ 20D,Black,big,Energetic,bold
+Baden,Dog,Shepherd,Male,2Y/ 1M/ 18D,Black,big,Energetic,bold
+Annika,Dog,Shepherd,Female,4Y/ 1M/ 13D,Brown,medium,Energetic,bold
+Edvin,Dog,Shepherd,Male,1Y/ 3M/ 11D,Black,big,Energetic,affectionate
+Choco Taco,Dog,Shepherd,Male,8Y/ 1M/ 12D,Brown,big,Intelligent,bold
+Mille Feuille,Dog,Shepherd,Female,3Y/ 1M/ 11D,Brown,medium,Energetic,bold
+Joss,Dog,"Pinscher, Doberman",Female,2Y/ 1M/ 11D,Black,medium,Intelligent,bold
+Joplin,Dog,"Shepherd, German",Female,2Y/ 1M/ 11D,Black,big,Energetic,intelligent
+Brenda,Dog,"Shepherd, Anatolian",Female,2Y/ 1M/ 7D,Tan,big,Protective,bold
+Soot Sprite,Dog,"Kelpie, Australian",Female,4Y/ 1M/ 6D,Black,medium,Intelligent,affectionate
+Pia,Dog,Shepherd,Female,6Y/ 1M/ 6D,Black,big,Energetic,affectionate
+Besiana,Dog,"Terrier, Pit Bull",Female,2Y/ 7M/ 6D,Tan,medium,Energetic,affectionate
+Kaia,Dog,Shepherd,Female,2Y/ 1M/ 5D,White,medium,Energetic,active
+Buddy,Dog,"Pinscher, Doberman",Male,1Y/ 5M/ 4D,Black,medium,Intelligent,intelligent
+Baby,Dog,"Pinscher, Doberman",Female,1Y/ 5M/ 4D,Black,medium,Alert,bold
+Mamas,Dog,"Shepherd, German",Female,1Y/ 5M/ 4D,Beige,big,Energetic,affectionate
+Tropic,Dog,Terrier,Female,2Y/ 1M/ 4D,White,small,Energetic,bold
+Jorgie,Dog,Shepherd,Male,2Y/ 7M/ 3D,White,big,Energetic,affectionate
+Starr,Dog,"Retriever, Labrador",Female,2Y/ 1M/ 3D,Black,medium,Friendly,affectionate
+Sundai,Dog,"Terrier, Pit Bull",Male,2Y/ 1M/ 3D,White,medium,Energetic,affectionate
+Compa,Dog,"Terrier, Pit Bull",Male,6Y/ 1M/ 2D,Brown,medium,Friendly,independent
+Lanza,Dog,"Husky, Alaskan",Female,3Y/ 1M/ 2D,Brown,big,Energetic,Affectionate
+Eclipse,Dog,"Terrier, Pit Bull",Female,1Y/ 8M,Black,medium,Energetic,bold
+Twister,Dog,Shepherd,Female,3Y/ 1M,Chocolate,medium,Energetic,intelligent
+Ming Hua,Dog,Black Mouth Cur,Female,1Y/ 11M/ 30D,Tan,medium,Protective,affectionate
+Schatz,Dog,"Retriever, Black Labrador",Male,4Y/ 26D,Black,medium,Friendly,Affectionate
+Flash,Dog,"Retriever, Black Labrador",Male,2Y/ 25D,Black,medium,Friendly,intelligent
+Zabu,Dog,"Shepherd, German",Male,4Y/ 23D,Black,big,Energetic,affectionate
+Penedo,Dog,"Terrier, Pit Bull",Male,4Y/ 22D,Brown,medium,Energetic,loyal
+Risette,Dog,Shepherd,Female,4Y/ 20D,Black,big,Intelligent,Affectionate
+Sable,Dog,"Terrier, Pit Bull",Female,2Y/ 6M/ 20D,Black,medium,Energetic,affectionate
+Hela,Dog,"Terrier, American Pit Bull",Female,1Y/ 5M/ 16D,Black,medium,Energetic,bold
+Dulce de Leche,Dog,"Terrier, Pit Bull",Female,3Y/ 14D,Black,medium,Energetic,active
+Kimi,Dog,Shepherd,Female,3Y/ 13D,Brown,big,Energetic,affectionate
+Shirley,Dog,Mountain Cur,Female,1Y/ 2M/ 26D,Brindle,medium,Friendly,friendly
+Halen,Dog,Husky,Male,2Y/ 8D,White,medium,Energetic,bold
+Leah,Dog,Shepherd,Female,4Y/ 8D,Brown,big,Energetic,bold
+Marmalade,Dog,Shepherd,Female,2Y/ 8D,Brindle,medium,Energetic,bold
+Grimm,Dog,Shepherd,Male,2Y/ 8D,White,big,Energetic,bold
+Dilly,Dog,Shepherd,Female,4Y/ 7D,Brown,big,Energetic,affectionate
+Sparkle,Dog,"Terrier, Pit Bull",Female,3Y/ 6D,White,medium,Energetic,affectionate
+Sabrina,Dog,Terrier,Female,3Y/ 4D,White,small,Energetic,affectionate
+Cosmo,Dog,"Terrier, American Pit Bull",Male,3Y/ 2D,Black,medium,Friendly,loyal
+Wanda,Dog,"Shepherd, German",Female,5Y/ 2D,Black,big,Intelligent,bold
+Sorceress,Dog,Shepherd,Female,1Y/ 11M/ 2D,Brown,medium,Friendly,affectionate
+Spice,Dog,"Retriever, Black Labrador",Female,1Y/ 2M/ 25D,Black,medium,Friendly,bold
+Amelie,Dog,Shepherd,Female,4Y/ 11M/ 29D,Brown,medium,Friendly,Affectionate

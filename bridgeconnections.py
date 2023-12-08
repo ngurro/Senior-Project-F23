@@ -13,10 +13,11 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI")
 
 pvas = []
-with open('Senior-Project-F23\Report for school.csv', newline=None, encoding='utf-8-sig') as line:
+with open('Senior-Project-F23\\redtest.csv', newline=None, encoding='utf-8-sig') as line:
   reader = csv.reader(line)
   pvas.extend(reader)
 
+pvas.pop(0)
 print(pvas)
 output = []
 
@@ -31,15 +32,15 @@ for i, line in enumerate(pvas):
     messages=[
       {
         "role": "system",
-        "content": "Analyze the given string for pet information.\nFormat the output to a dictionary.\nI want to have three keys named, 'Size', 'Temperament', and 'Personality'.\nThe values of these keys should be based on the content of the string given. If the info provided is not sufficient, take a close estimate based on the breed and size of the dog. Otherwise, put 'N/A' instead. Only output in this format.",
+        "content": "Analyze the given string of temperaments.\nFormat the output to a dictionary. Convert the given list of personalities into one of these categories based on what it reads: 'Energetic', 'Friendly', 'Protective', or 'Alert'. If there are more than one personality, remove everything after the first. There should only be one personality. If there are any unknowns or N/A, put 'N/A'. Only output in this format.",
       },
       {
         "role": "user",
-        "content": "11/16/2019	PVAS-A-102283	Madam Camille	Dog	Shepherd, German	Female	7Y/ 10M/ 26D	Brown	Yes		Available Foster",
+        "content": "eager-to-please",
       },
       {
         "role": "assistant",
-        "content": '{"Size": "big", "Temperament": "Energetic", "Personality": "loyal, affectionate"}'
+        "content": '{"Temperament": "friendly"}'
       },
       {       
         "role": "user", "content": lineString
