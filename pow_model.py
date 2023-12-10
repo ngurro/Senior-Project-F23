@@ -1,6 +1,4 @@
 import csv
-import os
-import json
 from keras.preprocessing.text import Tokenizer
 import numpy as np
 import pandas as pd
