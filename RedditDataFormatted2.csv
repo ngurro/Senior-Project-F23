@@ -1,9 +1,10 @@
 Breed,Size,Temperament,Personality
-N/A,N/A,N/A,intelligent
+N/A,N/A,N/A,affectionate
 N/A,medium,N/A,N/A
 "Shepherd, German",N/A,protective,intelligent
 N/A,N/A,N/A,affectionate
 Pomeranian,small,N/A,N/A
+N/A,medium,protective,loyal
 "Shepherd, German",N/A,N/A,N/A
 Poodle,small,friendly,affectionate
 N/A,N/A,N/A,affectionate
@@ -27,7 +28,6 @@ Labrador Retriever,large,friendly,affectionate
 Whippet,medium,friendly,affectionate
 Cavalier King Charles Spaniel,small,friendly,affectionate
 Labrador Retriever,small,friendly,intelligent
-Shiba Inu,small,protective,independent
 Maltese,small,N/A,affectionate
 "Retriever, Labrador",medium,friendly,affectionate
 "Retriever, Golden",large,friendly,intelligent

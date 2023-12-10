@@ -5,9 +5,6 @@ from keras.preprocessing.text import Tokenizer
 import numpy as np
 import pandas as pd
 
-#TODO:
-# - Create a csv file that shows which recommendation goes to which
-
 # A list of both the PVAS file and Reddit file.
 pvas = []
 with open('Senior-Project-F23\PVAS Abridged.csv', newline=None, encoding='utf-8-sig') as line:
@@ -29,8 +26,6 @@ combined = pvas + reddit
 tokenize = Tokenizer(filters='!"#$%&()*+,-/:;<=>?@[\\]^_`{|}~\t\n', lower=True)
 tokenize.fit_on_texts(combined)
 
-print(f'Vocabulary: {list(tokenize.word_index.keys())}')
-
 vectors = tokenize.texts_to_matrix(combined, mode='count')
 
 convert = vectors.tolist()
@@ -40,11 +35,22 @@ convert = [row[1:] for row in convert]
 PVASMatrix = convert[:88]
 RedditMatrix = convert[88:]
 
-recommendation, cosineSim, bestMatch = [], [], []
+ogRed, ogP, recommendation, cosineSim, bestMatch = [], [], [], [], []
+
+origReddit = []
+with open('Senior-Project-F23\\redditanimal.csv', newline=None, encoding='utf-8-sig') as line:
+  reader = csv.reader(line)
+  origReddit.extend(reader)
+
+origPVAS = []
+with open('Senior-Project-F23\Report for school.csv', newline=None, encoding='utf-8-sig') as line:
+  reader = csv.reader(line)
+  origPVAS.extend(reader)
+
+origReddit.pop(0)
 
 # Cosine Distance and Cosine Similarity
 for i, redLine in enumerate(RedditMatrix):
-  print(f"Recommendation on: {reddit[i]}")
   biggestRec, biggestRecIndex = -1, -1
 
   for j, PVASLine in enumerate(PVASMatrix):
@@ -54,11 +60,11 @@ for i, redLine in enumerate(RedditMatrix):
       biggestRec = cosOut
       biggestRecIndex = j
 
-  print(f"Cosine Similarity: {biggestRec} \nBest Recommendation: {pvas[biggestRecIndex]} \n")
-
   recommendation.append(reddit[i])
   cosineSim.append(biggestRec)
   bestMatch.append(pvas[biggestRecIndex])
+  ogRed.append(origReddit[i])
+  ogP.append(origPVAS[biggestRecIndex])
 
-df = pd.DataFrame(data={"Recommendation: ": recommendation, "Similiarty Cosine: ": cosineSim, "Best Match: ": bestMatch})
+df = pd.DataFrame(data={"Original Post: ": ogRed, "Data Extracted: ": recommendation, "Similiarty Cosine: ": cosineSim, "Best Match Description: ": bestMatch, "Animal Identity: ": ogP})
 df.to_csv("recommendationOutput.csv", sep=',', index=False)
