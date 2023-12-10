@@ -1,44 +1,44 @@
 Breed,Size,Temperament,Personality
-N/A,N/A,N/A,intelligent
-N/A,medium,N/A,N/A
-"Cane Corso, German Shepherd, Belgian Malinois",N/A,protective,intelligent
-N/A,N/A,N/A,affectionate
-Pomeranian,small,N/A,N/A
-German Shepherd,N/A,N/A,N/A
-Poodle mix (low-shedding),small,friendly,affectionate
-N/A,N/A,N/A,affectionate
-N/A,small,friendly,intelligent
-"Mudi, Australian Shepherd/Mini American Shepherd, Belgian Shepherd (Malinois, Groenendael, Laekenois, Tervuren), German Pinscher, Dalmatian, Swedish Vallhund, American Hairless Terrier, Bohemian Shepherd, Shetland Sheepdog, Chihuahua",Medium,energetic,bold
-Golden Doodle or Australian Golden Doodle,medium,friendly,affectionate
-Wheaten Terrier,medium,friendly,independent
-Jack Russell Terrier or German Pinscher,medium,energetic,independent
-"Stabyhoun, Nova Scotia Duck Tolling Retriever, Brittany",medium,energetic,affectionate
-N/A,medium,friendly,affectionate
-Poodle or Doodle-type breeds,medium,friendly,affectionate
-N/A,medium,energetic,affectionate
-N/A,large,friendly,affectionate
-Aussiedor,N/A,N/A,affectionate
-"Nova Scotia Duck Tolling Retriever, Smooth Collie, Spingador",medium,friendly,affectionate
-N/A,large,protective,affectionate
-"Belgian Malinois, Doberman, Golden Retriever, Labrador Retriever",large,friendly,affectionate
-"Brittany, English Springer Spaniel, Australian Shepherd, Border Collie, Vizsla",medium,energetic,independent
-N/A,medium,energetic,independent
+#,#,#,intelligent
+#,medium,#,#
+"Shepherd, German",#,protective,intelligent
+#,#,#,affectionate
+Pomeranian,small,#,#
+"Shepherd, German",#,#,#
+Poodle,small,friendly,affectionate
+#,#,#,affectionate
+#,small,friendly,intelligent
+Australian Shepherd,Medium,energetic,bold
+Golden Doodle,medium,friendly,affectionate
+Terrier,medium,friendly,independent
+Terrier,medium,energetic,independent
+Stabyhoun,medium,energetic,affectionate
+#,medium,friendly,affectionate
+Poodle,medium,friendly,affectionate
+#,medium,energetic,affectionate
+#,large,friendly,affectionate
+Aussiedor,#,#,affectionate
+"Retriever, Labrador",medium,friendly,affectionate
+#,large,protective,affectionate
+Belgian Malinois,large,friendly,affectionate
+Brittany,medium,energetic,independent
+#,medium,energetic,independent
 Labrador Retriever,large,friendly,affectionate
-"Whippet, Silken Windhound, Manchester Terrier, Papillon",medium,friendly,affectionate
+Whippet,medium,friendly,affectionate
 Cavalier King Charles Spaniel,small,friendly,affectionate
-Labrador Retriever (smaller size),small,friendly,intelligent
+Labrador Retriever,small,friendly,intelligent
 Shiba Inu,small,protective,independent
-Maltese,small,N/A,affectionate
-Labrador Retriever,medium,friendly,affectionate
-Golden Retriever,large,friendly,intelligent
-N/A,medium,energetic,loyal
-Shih-Tzu,small,N/A,affectionate
+Maltese,small,#,affectionate
+"Retriever, Labrador",medium,friendly,affectionate
+"Retriever, Golden",large,friendly,intelligent
+#,medium,energetic,loyal
+Shih-Tzu,small,#,affectionate
 Beagle,small,friendly,affectionate
-N/A,large,friendly,affectionate
+#,large,friendly,affectionate
 Miniature Golden Retriever,medium,friendly,affectionate
 American Leopard Hound,large,friendly,affectionate
-Catahoula Terrier mix,medium,friendly,affectionate
-Sighthound,Medium,N/A,affectionate
-Italian Greyhound or Greyhound,medium,friendly,independent
-N/A,small,friendly,affectionate
-"Pit Bull, Australian Shepherd, German Shepherd, Labrador Retriever, Golden Retriever",large,protective,affectionate
+Catahoula Terrier,medium,friendly,affectionate
+Sighthound,Medium,#,affectionate
+Greyhound,medium,friendly,independent
+#,small,friendly,affectionate
+"Terrier, Pit Bull",large,protective,affectionate

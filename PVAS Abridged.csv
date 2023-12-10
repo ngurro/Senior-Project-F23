@@ -1,5 +1,5 @@
 Primary Breed,Size,Temperament,Personality
-"Shepherd, German",big,Energetic,loyal
+Shepherd,big,Energetic,loyal
 Retriever,medium,Energetic,bold
 "Terrier, Pit Bull",medium,Friendly,affectionate
 Shepherd,big,Energetic,active
@@ -8,12 +8,12 @@ Mountain Cur,medium,Friendly,independent
 "Terrier, Pit Bull",medium,Energetic,affectionate
 "Retriever, Black Labrador",medium,Friendly,intelligent
 "Terrier, American Pit Bull",medium,Friendly,affectionate
-"Shepherd, German",big,Energetic,loyal
+Shepherd,big,Energetic,loyal
 Boxer,medium,Energetic,affectionate
 Shepherd,big,Energetic,active
 "Terrier, Pit Bull",medium,Energetic,affectionate
 Shepherd,big,Energetic,loyal
-"Shepherd, Anatolian",big,Protective,intelligent
+Shepherd,big,Protective,intelligent
 Shepherd,medium,Friendly,affectionate
 Terrier,small,Energetic,affectionate
 Terrier,small,Energetic,affectionate
@@ -83,7 +83,7 @@ Shepherd,big,Energetic,affectionate
 "Terrier, Pit Bull",medium,Energetic,affectionate
 Terrier,small,Energetic,affectionate
 "Terrier, American Pit Bull",medium,Friendly,loyal
-"Shepherd, German",big,Intelligent,bold
+Shepherd,big,Intelligent,bold
 Shepherd,medium,Friendly,affectionate
 "Retriever, Black Labrador",medium,Friendly,bold
 Shepherd,medium,Friendly,Affectionate
