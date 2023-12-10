@@ -3,6 +3,7 @@ import os
 import json
 from keras.preprocessing.text import Tokenizer
 import numpy as np
+import pandas as pd
 
 #TODO:
 # - Create a csv file that shows which recommendation goes to which
@@ -39,12 +40,7 @@ convert = [row[1:] for row in convert]
 PVASMatrix = convert[:88]
 RedditMatrix = convert[88:]
 
-with open("textOutput.txt", "w") as txtF:
-  for i in range(len(convert)):
-    txtF.write(f"\n ")
-    for j in range(len(convert[i])):
-      txtF.write(f"{convert[i][j]} ")  
-
+recommendation, cosineSim, bestMatch = [], [], []
 
 # Cosine Distance and Cosine Similarity
 for i, redLine in enumerate(RedditMatrix):
@@ -57,7 +53,12 @@ for i, redLine in enumerate(RedditMatrix):
     if biggestRec < cosOut:
       biggestRec = cosOut
       biggestRecIndex = j
-    #print(f"Cosine Simlilarity: {cosOut}")
 
-  print(f"Best Recommendation: {biggestRec} \n From: {pvas[biggestRecIndex]} \n")
-  
+  print(f"Cosine Similarity: {biggestRec} \nBest Recommendation: {pvas[biggestRecIndex]} \n")
+
+  recommendation.append(reddit[i])
+  cosineSim.append(biggestRec)
+  bestMatch.append(pvas[biggestRecIndex])
+
+df = pd.DataFrame(data={"Recommendation: ": recommendation, "Similiarty Cosine: ": cosineSim, "Best Match: ": bestMatch})
+df.to_csv("recommendationOutput.csv", sep=',', index=False)

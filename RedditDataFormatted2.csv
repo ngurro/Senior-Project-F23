@@ -1,44 +1,44 @@
 Breed,Size,Temperament,Personality
-#,#,#,intelligent
-#,medium,#,#
-"Shepherd, German",#,protective,intelligent
-#,#,#,affectionate
-Pomeranian,small,#,#
-"Shepherd, German",#,#,#
+N/A,N/A,N/A,intelligent
+N/A,medium,N/A,N/A
+"Shepherd, German",N/A,protective,intelligent
+N/A,N/A,N/A,affectionate
+Pomeranian,small,N/A,N/A
+"Shepherd, German",N/A,N/A,N/A
 Poodle,small,friendly,affectionate
-#,#,#,affectionate
-#,small,friendly,intelligent
+N/A,N/A,N/A,affectionate
+N/A,small,friendly,intelligent
 Australian Shepherd,Medium,energetic,bold
 Golden Doodle,medium,friendly,affectionate
 Terrier,medium,friendly,independent
 Terrier,medium,energetic,independent
 Stabyhoun,medium,energetic,affectionate
-#,medium,friendly,affectionate
+N/A,medium,friendly,affectionate
 Poodle,medium,friendly,affectionate
-#,medium,energetic,affectionate
-#,large,friendly,affectionate
-Aussiedor,#,#,affectionate
+N/A,medium,energetic,affectionate
+N/A,large,friendly,affectionate
+Aussiedor,N/A,N/A,affectionate
 "Retriever, Labrador",medium,friendly,affectionate
-#,large,protective,affectionate
+N/A,large,protective,affectionate
 Belgian Malinois,large,friendly,affectionate
 Brittany,medium,energetic,independent
-#,medium,energetic,independent
+N/A,medium,energetic,independent
 Labrador Retriever,large,friendly,affectionate
 Whippet,medium,friendly,affectionate
 Cavalier King Charles Spaniel,small,friendly,affectionate
 Labrador Retriever,small,friendly,intelligent
 Shiba Inu,small,protective,independent
-Maltese,small,#,affectionate
+Maltese,small,N/A,affectionate
 "Retriever, Labrador",medium,friendly,affectionate
 "Retriever, Golden",large,friendly,intelligent
-#,medium,energetic,loyal
-Shih-Tzu,small,#,affectionate
+N/A,medium,energetic,loyal
+Shih-Tzu,small,N/A,affectionate
 Beagle,small,friendly,affectionate
-#,large,friendly,affectionate
+N/A,large,friendly,affectionate
 Miniature Golden Retriever,medium,friendly,affectionate
 American Leopard Hound,large,friendly,affectionate
 Catahoula Terrier,medium,friendly,affectionate
-Sighthound,Medium,#,affectionate
+Sighthound,Medium,N/A,affectionate
 Greyhound,medium,friendly,independent
-#,small,friendly,affectionate
+N/A,small,friendly,affectionate
 "Terrier, Pit Bull",large,protective,affectionate
