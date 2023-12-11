@@ -35,6 +35,8 @@ convert = [row[1:] for row in convert]
 PVASMatrix = convert[:88]
 RedditMatrix = convert[88:]
 
+print(convert)
+
 origReddit = []
 with open('Senior-Project-F23\\redditanimal.csv', newline=None, encoding='utf-8-sig') as line:
   reader = csv.reader(line)

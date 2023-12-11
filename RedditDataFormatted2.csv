@@ -1,15 +1,15 @@
 Breed,Size,Temperament,Personality
 N/A,N/A,N/A,affectionate
 N/A,medium,N/A,N/A
-"Shepherd, German",N/A,protective,intelligent
+Shepherd,N/A,protective,intelligent
 N/A,N/A,N/A,affectionate
 Pomeranian,small,N/A,N/A
 N/A,medium,protective,loyal
-"Shepherd, German",N/A,N/A,N/A
+Shepherd,N/A,N/A,N/A
 Poodle,small,friendly,affectionate
 N/A,N/A,N/A,affectionate
 N/A,small,friendly,intelligent
-Australian Shepherd,Medium,energetic,bold
+Shepherd,Medium,energetic,bold
 Golden Doodle,medium,friendly,affectionate
 Terrier,medium,friendly,intelligent
 Terrier,medium,energetic,independent
@@ -19,26 +19,26 @@ Poodle,medium,friendly,affectionate
 N/A,medium,energetic,affectionate
 N/A,large,friendly,affectionate
 Aussiedor,N/A,N/A,affectionate
-"Retriever, Labrador",medium,friendly,affectionate
+Retriever,medium,friendly,affectionate
 N/A,large,protective,affectionate
 Belgian Malinois,large,friendly,affectionate
 Brittany,medium,energetic,independent
 N/A,medium,energetic,independent
-Labrador Retriever,large,friendly,affectionate
+Retriever,large,friendly,affectionate
 Whippet,medium,friendly,affectionate
 Cavalier King Charles Spaniel,small,friendly,affectionate
-Labrador Retriever,small,friendly,intelligent
+Retriever,small,friendly,intelligent
 Maltese,small,N/A,affectionate
-"Retriever, Labrador",medium,friendly,affectionate
-"Retriever, Golden",large,friendly,intelligent
+Retriever,medium,friendly,affectionate
+Retriever,large,friendly,intelligent
 N/A,medium,energetic,loyal
 Shih-Tzu,small,N/A,affectionate
 Beagle,small,friendly,affectionate
 N/A,large,friendly,affectionate
-Miniature Golden Retriever,medium,friendly,affectionate
-American Leopard Hound,large,friendly,affectionate
-Catahoula Terrier,medium,friendly,affectionate
+Retriever,medium,friendly,affectionate
+Leopard,large,friendly,affectionate
+Terrier,medium,friendly,affectionate
 Sighthound,Medium,N/A,affectionate
 Greyhound,medium,friendly,independent
 N/A,small,friendly,affectionate
-"Terrier, Pit Bull",large,protective,affectionate
+Terrier,large,protective,affectionate
