@@ -3,6 +3,8 @@ from keras.preprocessing.text import Tokenizer
 import numpy as np
 import pandas as pd
 
+# Warning: This is an absolutely atrociously written code.
+
 # A list of both the PVAS file and Reddit file.
 pvas = []
 with open('Senior-Project-F23\PVAS Abridged.csv', newline=None, encoding='utf-8-sig') as line:
@@ -33,8 +35,6 @@ convert = [row[1:] for row in convert]
 PVASMatrix = convert[:88]
 RedditMatrix = convert[88:]
 
-ogRed, ogP, recommendation, cosineSim, bestMatch = [], [], [], [], []
-
 origReddit = []
 with open('Senior-Project-F23\\redditanimal.csv', newline=None, encoding='utf-8-sig') as line:
   reader = csv.reader(line)
@@ -47,22 +47,40 @@ with open('Senior-Project-F23\Report for school.csv', newline=None, encoding='ut
 
 origReddit.pop(0)
 
+ogRed, ogP, recommendation, cosineSim, bestMatch = [], [], [], [], []
+
 # Cosine Distance and Cosine Similarity
 for i, redLine in enumerate(RedditMatrix):
-  biggestRec, biggestRecIndex = -1, -1
+  biggestRec, biggestRecIndex = [-1, -1, -1], [-1, -1, -1]
 
   for j, PVASLine in enumerate(PVASMatrix):
     # Find Cosine Similiarity
     cosOut = np.dot(redLine, PVASLine) / (np.linalg.norm(redLine) * np.linalg.norm(PVASLine))
-    if biggestRec < cosOut:
-      biggestRec = cosOut
-      biggestRecIndex = j
+
+    for k in range(3):
+      if biggestRec[k] == -1 or biggestRec[k] < cosOut:
+        biggestRec.insert(k, cosOut)
+        biggestRecIndex.insert(k, j)
+        break
+
+    while (len(biggestRec) > 3):
+      biggestRec.pop()
+      biggestRecIndex.pop()
 
   recommendation.append(reddit[i])
   cosineSim.append(biggestRec)
-  bestMatch.append(pvas[biggestRecIndex])
   ogRed.append(origReddit[i])
-  ogP.append(origPVAS[biggestRecIndex])
 
-df = pd.DataFrame(data={"Original Post: ": ogRed, "Data Extracted: ": recommendation, "Similiarty Cosine: ": cosineSim, "Best Match Description: ": bestMatch, "Animal Identity: ": ogP})
+  for x in biggestRecIndex:
+    bestMatch.append(pvas[x])
+    ogP.append(origPVAS[x])
+  
+  for y in range(2):
+    recommendation.append(" ")
+    cosineSim.append(" ")
+    ogRed.append(" ")    
+
+a = {"Original Post: ": ogRed, "Data Extracted: ": recommendation, "Similiarty Cosine: ": cosineSim, "Best Match Description: ": bestMatch, "Animal Identity: ": ogP}
+df = pd.DataFrame.from_dict(a, orient='index')
+df = df.transpose()
 df.to_csv("recommendationOutput.csv", sep=',', index=False)
