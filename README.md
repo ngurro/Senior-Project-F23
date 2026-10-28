@@ -1,5 +1,3 @@
-# Senior-Project-F23
-[README_Senior_Project.md](https://github.com/user-attachments/files/34093889/README_Senior_Project.md)
 # Pet Adoption Recommendation System
 
 **Fall 2023 Senior Project | Natural Language Processing & Similarity-Based Matching**
